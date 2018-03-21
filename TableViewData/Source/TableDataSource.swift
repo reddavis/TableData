@@ -9,7 +9,7 @@
 import UIKit
 
 
-public final class TableDataSource: NSObject
+public class TableDataSource: NSObject
 {
     // Public
     public var sections = [TableSection]()
