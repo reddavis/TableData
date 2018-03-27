@@ -7,7 +7,7 @@ Table Data is super flexible framework for building complicated table views.
 ### Carthage
 
 ```
-github “reddavis/TableData”
+github "reddavis/TableData"
 ```
 
 ## Example
