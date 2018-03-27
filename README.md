@@ -12,7 +12,7 @@ github “reddavis/TableData”
 
 ## Example
 
-```
+```swift
 //
 //  ViewController.swift
 //  Demo
