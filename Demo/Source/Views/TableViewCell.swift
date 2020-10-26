@@ -14,7 +14,7 @@ internal class TableViewCell: UITableViewCell, Reusable
 {
     // MARK: Initialization
     
-    internal override init(style: UITableViewCellStyle, reuseIdentifier: String?)
+    internal override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?)
     {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
     }
