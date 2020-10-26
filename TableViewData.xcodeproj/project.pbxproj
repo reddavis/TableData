@@ -96,7 +96,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C3B2619254763F00070C19F /* Source */ = {
+		6C3B2619254763F00070C19F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				6C3B261A254763F00070C19F /* TableDataSource.swift */,
@@ -107,7 +107,7 @@
 				6C3B261F254763F00070C19F /* Supporting Files */,
 				6C3B261D254763F00070C19F /* TableData.h */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		6C3B261F254763F00070C19F /* Supporting Files */ = {
@@ -121,7 +121,7 @@
 		A468A95620163AD100A667E6 = {
 			isa = PBXGroup;
 			children = (
-				6C3B2619254763F00070C19F /* Source */,
+				6C3B2619254763F00070C19F /* Sources */,
 				A468A96D20163AD100A667E6 /* TableDataTests */,
 				A468A97F20163D5600A667E6 /* Demo */,
 				A468A96120163AD100A667E6 /* Products */,
@@ -560,7 +560,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reddavis.TableViewData;
@@ -583,7 +583,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reddavis.TableViewData;
