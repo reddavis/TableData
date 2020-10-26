@@ -13,7 +13,6 @@
 		6C3B2625254763F00070C19F /* TableData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3B261D254763F00070C19F /* TableData.h */; };
 		6C3B2626254763F00070C19F /* TableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B261E254763F00070C19F /* TableSection.swift */; };
 		6C3B2628254763F00070C19F /* TableHeaderFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B2621254763F00070C19F /* TableHeaderFooter.swift */; };
-		6C3B26472547661C0070C19F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C3B2644254765A80070C19F /* Info.plist */; };
 		A42869B02020E217008E7424 /* Value1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42869AF2020E217008E7424 /* Value1TableViewCell.swift */; };
 		A42869B220210C84008E7424 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A468A9A2201659FE00A667E6 /* TableViewCell.swift */; };
 		A468A96A20163AD100A667E6 /* TableViewData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A468A96020163AD100A667E6 /* TableViewData.framework */; };
@@ -341,7 +340,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C3B26472547661C0070C19F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
