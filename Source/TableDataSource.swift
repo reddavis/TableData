@@ -46,7 +46,7 @@ extension TableDataSource: UITableViewDataSource
     
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
     {
-        return UITableViewAutomaticDimension
+        return UITableView.automaticDimension
     }
     
     public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView?
@@ -58,7 +58,7 @@ extension TableDataSource: UITableViewDataSource
     public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat
     {
         let sectionData = self.sections[section]
-        return sectionData.header == nil ? 0.0 : UITableViewAutomaticDimension
+        return sectionData.header == nil ? 0.0 : UITableView.automaticDimension
     }
     
     public func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView?
@@ -70,7 +70,7 @@ extension TableDataSource: UITableViewDataSource
     public func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat
     {
         let sectionData = self.sections[section]
-        return sectionData.footer == nil ? 0.0 : UITableViewAutomaticDimension
+        return sectionData.footer == nil ? 0.0 : UITableView.automaticDimension
     }
 }
 
@@ -99,7 +99,7 @@ extension TableDataSource: UITableViewDelegate
         return row.isEditable
     }
     
-    public func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath)
+    public func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath)
     {
         let section = self.sections[indexPath.section]
         let row = section.row(at: indexPath.row)
