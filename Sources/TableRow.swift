@@ -15,7 +15,7 @@ public final class TableRow
     public typealias DequeueHandler = (_ tableView: UITableView, _ indexPath: IndexPath) -> UITableViewCell
     public typealias SelectionHandler = (_ tableView: UITableView, _ indexPath: IndexPath) -> Void
     public typealias DisplayHandler = (_ tableView: UITableView, _ cell: UITableViewCell, _ indexPath: IndexPath) -> Void
-    public typealias EditHandler = (_ tableView: UITableView, _ editingStyle: UITableViewCellEditingStyle, _ indexPath: IndexPath) -> Void
+    public typealias EditHandler = (_ tableView: UITableView, _ editingStyle: UITableViewCell.EditingStyle, _ indexPath: IndexPath) -> Void
 
     public let dequeueHandler: DequeueHandler
     public var willDisplayHandler: DisplayHandler?
